@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.2.1
+// @version      0.2.2
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/java
@@ -95,7 +95,6 @@ function sendOrAppend(event, message) {
 		sendMessage(message);
 	}
 	event.preventDefault();
-	event.stopPropagation();
 }
 
 function sendMessage(msg) {
