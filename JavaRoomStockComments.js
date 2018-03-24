@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stock Comments
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/geisterfurz007
 // @version      0.1
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
