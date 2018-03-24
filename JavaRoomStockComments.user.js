@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.2
+// @version      0.2.1
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/java
@@ -141,6 +141,10 @@ function getComments() {
 			"bigCode": {
 				desc: "Big code snippet",
 				message: "Please use a [paste site](https://paste.ofcode.org/) for long code snippets."
+			},
+			"shortcut": {
+				desc: "Using chat as a question shortcut",
+				message: "Please don't use chat as fastlane for your questions. Instead, wait a few days before asking here to give the people on the main site some time. If we want to answer questions there, we will look for them on our own."
 			}
 		}
     );
