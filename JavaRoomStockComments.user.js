@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.1
+// @version      0.2
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/java
@@ -56,7 +56,6 @@ const room = 139;
     
 	scButton.appendChild(wrapper);
     buttonsContainer.appendChild(scButton);
-    // Your code here...
 
     GM_addStyle("#stock-comment-button > dl > dt {padding-left: 5px; padding-right: 5px;}" +
 				".my-10 {margin-top: 10px; margin-bottom: 10px;}" +
@@ -100,18 +99,13 @@ function sendOrAppend(event, message) {
 }
 
 function sendMessage(msg) {
+	var fkey = document.getElementById("fkey").getAttribute("value");
+	
 	GM.xmlHttpRequest({
-		method: 'GET', 
-		url: 'https://chat.stackoverflow.com/rooms/' + room, 
-		onload: function (response) {
-		  var fkey = response.responseText.match(/hidden" value="([\dabcdef]{32})/)[1];
-		  GM.xmlHttpRequest({
-			method: 'POST',
-			url: 'https://chat.stackoverflow.com/chats/' + room + '/messages/new',
-			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			data: 'text=' + encodeURIComponent(msg) + '&fkey=' + fkey
-		  });
-		}
+		method: 'POST',
+		url: 'https://chat.stackoverflow.com/chats/' + room + '/messages/new',
+		headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+		data: 'text=' + encodeURIComponent(msg) + '&fkey=' + fkey
 	});
 }
 
