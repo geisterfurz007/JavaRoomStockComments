@@ -22,7 +22,7 @@ const room = 139;
 		GM = {};
 	}
 
-	if (typeof GM_xmlhttpRequest === 'function') {
+	if (typeof GM_xmlhttpRequest === 'function' && !GM.xmlHttpRequest) {
 		GM.xmlHttpRequest = GM_xmlhttpRequest;
 	}
 	
