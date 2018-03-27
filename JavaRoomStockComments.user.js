@@ -4,7 +4,7 @@
 // @version      0.2.3
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
-// @match        https://chat.stackoverflow.com/rooms/139/java
+// @match        https://chat.stackoverflow.com/rooms/139/*
 // @grant        GM_addStyle
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
