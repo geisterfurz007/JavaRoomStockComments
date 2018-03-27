@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.2.2
+// @version      0.2.3
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/java
@@ -78,6 +78,8 @@ function getLinkObject(key, description, message) {
 	
 	var link = document.createElement("a");
 	link.setAttribute("style", "display: inline-block; margin-top: 5px; width:auto; cursor: pointer");
+	link.setAttribute("title", message);
+	
 	link.innerText = description;
 	
 	link.onclick = function (ev) {sendOrAppend(ev, message);};
