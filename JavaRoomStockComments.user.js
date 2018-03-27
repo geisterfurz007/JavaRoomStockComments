@@ -8,6 +8,8 @@
 // @grant        GM_addStyle
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
+// @downloadURL https://github.com/geisterfurz007/JavaRoomStockComments/raw/master/JavaRoomStockComments.user.js
+// @updateURL https://github.com/geisterfurz007/JavaRoomStockComments/raw/master/JavaRoomStockComments.meta.js
 // ==/UserScript==
 
 const room = 139;
