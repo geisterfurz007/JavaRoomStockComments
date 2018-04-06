@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.3.1
+// @version      0.3.2
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/*
@@ -142,7 +142,11 @@ function getComments() {
 			},
 			{
 				desc: "Big code snippet",
-				message: "Please use a [paste site](https://paste.ofcode.org/) for long code snippets."
+				message: "Please use a [paste site](https://paste.ofcode.org/) for long code snippets and stacktraces."
+			},
+			{
+				desc: "Playing in chat",
+				message: "Please use [the sandbox](https://chat.stackoverflow.com/rooms/1) for testing out chat features or playing with bots."
 			},
 			{
 				desc: "Using chat as a question shortcut",
@@ -151,27 +155,4 @@ function getComments() {
 		]
     );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
