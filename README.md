@@ -25,3 +25,9 @@ The text will be whatever you have entered in the textfield already, so if you w
 
 This userscript was written and is tested with Tampermonkey 4.6.5709. If you are using Greasemonkey, please leave feedback :)
 
+## ToDo
+
+ - [ ] Add Multiroom support.  
+ - - [ ] Rename repo to SOChatStockComments  
+ - - [ ] When adding the options look for additional room id attribute and compare with current room  
+ - - [ ] Add wildcard in `@include`  
