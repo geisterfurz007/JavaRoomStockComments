@@ -20,3 +20,8 @@ The text will be whatever you have entered in the textfield already, so if you w
 3. Click on "Raw"
 4. Tampermonkey/Greasemonkey should open up and give you the option to install the extension
 5. _(Optional)_ If you have SO-chat open, reload the page
+
+## Notes
+
+This userscript was written and is tested with Tampermonkey 4.6.5709. If you are using Greasemonkey, please leave feedback :)
+
