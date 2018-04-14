@@ -16,10 +16,9 @@ The text will be whatever you have entered in the textfield already, so if you w
 ### Chrome / Firefox
 
 1. Install TamperMonkey [for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  / [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) or [Greasemonkey for FF](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-2. Open [the `user.js` file](https://github.com/geisterfurz007/JavaRoomStockComments/blob/master/JavaRoomStockComments.user.js)
-3. Click on "Raw"
-4. Tampermonkey/Greasemonkey should open up and give you the option to install the extension
-5. _(Optional)_ If you have SO-chat open, reload the page
+2. Click to [install](https://github.com/geisterfurz007/JavaRoomStockComments/raw/master/JavaRoomStockComments.user.js)
+3. Tampermonkey/Greasemonkey should open up and give you the option to install the extension
+4. _(Optional)_ If you have SO-chat open, reload the page
 
 ## Notes
 
