@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.3.2
+// @version      0.3.3
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/*
@@ -151,6 +151,10 @@ function getComments() {
 			{
 				desc: "Using chat as a question shortcut",
 				message: "Please don't use chat as fastlane for your questions. Instead, wait a few days before asking here to give the people on the main site some time. If we want to answer questions there, we will look for them on our own."
+			},
+			{
+				desc: "Using chat as helpdesk",
+				message: "SO Chat is a place for software engineers to socialize. It is not a consultation service, help desk, or search engine."
 			}
 		]
     );
