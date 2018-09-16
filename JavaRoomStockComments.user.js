@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.3.3
+// @version      0.3.4
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/*
@@ -115,6 +115,10 @@ function getComments() {
     return (
         [
 			{
+				desc: "General Android questions",
+				message: "This is not an Android room. Please take your question to a room dedicated to Android. If you came here because you don't have access to the [Android room](https://chat.stackoverflow.com/rooms/info/15/android), remember that there are other rooms too with Android as the topic.",
+			},
+			{
 				desc: "Android is Java",
 				message: "Android uses Java syntax; But it is in no way Java. Android and Java have different SDK's, and even shared classes have differences. Java developers aren't necessarily familiar with Android just because they know the language syntax. For Android questions, use the [Android room](https://chat.stackoverflow.com/rooms/info/15/android), or one of the other rooms dedicated to Android."
 			},
@@ -125,10 +129,6 @@ function getComments() {
 			{
 				desc: "I thought Java devs could help me too",
 				message: "Android is not Java, and Android questions are off-topic in this room. Android Java and Java syntax is the same, but the SDKs differ. In addition, Android uses different systems (like Activities) which do not exist in Java. Please take your question to an Android room instead."
-			},
-			{
-				desc: "General Android questions",
-				message: "This is not an Android room. Please take your question to a room dedicated to Android. If you came here because you don't have access to the Android room (room 15), remember that there are other rooms too with Android as the topic.",
 				endOfSection: "true"
 			},
 			{
