@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.3.4
+// @version      0.3.5
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/*
@@ -128,7 +128,7 @@ function getComments() {
 			},
 			{
 				desc: "I thought Java devs could help me too",
-				message: "Android is not Java, and Android questions are off-topic in this room. Android Java and Java syntax is the same, but the SDKs differ. In addition, Android uses different systems (like Activities) which do not exist in Java. Please take your question to an Android room instead."
+				message: "Android is not Java, and Android questions are off-topic in this room. Android Java and Java syntax is the same, but the SDKs differ. In addition, Android uses different systems (like Activities) which do not exist in Java. Please take your question to an Android room instead.",
 				endOfSection: "true"
 			},
 			{
