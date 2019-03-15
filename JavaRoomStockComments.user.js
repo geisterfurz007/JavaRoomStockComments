@@ -13,6 +13,8 @@
 // ==/UserScript==
 
 const room = 139;
+if(GM == null)
+    var GM;
 
 
 (function() {
