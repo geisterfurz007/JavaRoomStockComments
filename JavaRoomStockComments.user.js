@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stock Comments
 // @namespace    https://github.com/geisterfurz007
-// @version      0.3.5
+// @version      0.3.6
 // @description  Easily send stock messages with the click of a button
 // @author       geisterfurz007
 // @match        https://chat.stackoverflow.com/rooms/139/*
@@ -77,7 +77,7 @@ function showOrHideDialog(event) {
 function getLinkObject(description, message) {
 	var listItem = document.createElement("dt");
 	
-	var link = document.createElement("a");
+	var link = document.createElement("button");
 	link.setAttribute("style", "display: inline-block; margin-top: 5px; width:auto; cursor: pointer");
 	link.setAttribute("title", message);
 	
